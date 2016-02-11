@@ -1,0 +1,31 @@
+.react-game .react-game__card {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  float: left;
+}
+
+.react-game .react-game__card:nth-child(6):after {
+  content: '';
+  display: block;
+  height:0;
+  clear: left;
+  visibility: hidden;
+}
+
+.react-game .react-game__color {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  top: 5%;
+  left: 5%;
+  border-radius: 5px;
+  background-size: 50%;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+}
